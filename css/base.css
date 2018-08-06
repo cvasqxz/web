@@ -23,9 +23,17 @@
 }
 
 .logo {
+height: 78%;
+width: 78%;
+}
+
+@media (min-width: 550px) {
+  .logo {
   height: 35%;
   width: 35%;
+  }
 }
+
 
 .whitelink { color: #fff; }
 .whitelink:hover { color: #AAE6D9; }
