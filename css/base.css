@@ -1,0 +1,31 @@
+.header {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 0.1rem;
+}
+
+.color {
+  background-color: #00BCD1;
+  color: #fff;
+  text-align: justify;
+}
+
+.section {
+  padding-top: 13rem;
+  padding-bottom: 13rem;
+}
+
+.content-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  height: 35%;
+  width: 35%;
+}
+
+.whitelink { color: #fff; }
+.whitelink:hover { color: #AAE6D9; }
