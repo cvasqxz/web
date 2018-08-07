@@ -10,11 +10,6 @@
   text-align: justify;
 }
 
-.press {
-  height: 4rem;
-  vertical-align: center;
-}
-
 .color {
   background-color: #222;
   color: #fff;
@@ -51,6 +46,6 @@ width: 78%;
 }
 
 .press > a > img {
-  width: 51%;
+  width: 55%;
   margin: 0.5rem;
 }
