@@ -1,4 +1,4 @@
-.header {
+.center {
   text-align: center;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .color {
-  background-color: #00BCD1;
+  background-color: #222;
   color: #fff;
 }
 
@@ -44,7 +44,7 @@ width: 78%;
 
 
 .whitelink { color: #fff; }
-.whitelink:hover { color: #fff; }
+.whitelink:hover { color: #fff; text-decoration: underline; }
 
 .press {
   text-align: center;
