@@ -6,10 +6,18 @@
   margin-bottom: 0.1rem;
 }
 
+.justify {
+  text-align: justify;
+}
+
+.press {
+  height: 4rem;
+  vertical-align: center;
+}
+
 .color {
   background-color: #00BCD1;
   color: #fff;
-  text-align: justify;
 }
 
 .section {
@@ -36,4 +44,13 @@ width: 78%;
 
 
 .whitelink { color: #fff; }
-.whitelink:hover { color: #AAE6D9; }
+.whitelink:hover { color: #fff; }
+
+.press {
+  text-align: center;
+}
+
+.press > a > img {
+  width: 51%;
+  margin: 0.5rem;
+}
