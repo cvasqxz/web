@@ -25,6 +25,17 @@
 - Media Queries
 */
 
+.title {
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
+}
+
+.subtitle {
+  font-family: 'Anonymous Pro', monospace;
+  letter-spacing: 0.075rem;
+  color: #666;
+  font-size: 1.15rem;
+}
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
