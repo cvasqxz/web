@@ -30,13 +30,6 @@
   margin-bottom: 0rem;
 }
 
-.subtitle {
-  font-family: 'Anonymous Pro', monospace;
-  letter-spacing: 0.075rem;
-  color: #666;
-  font-size: 1.15rem;
-}
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -129,10 +122,31 @@
 }
 
 .logo {
-  width: 50rem;
-  height: 50rem;
-  vertical-align: -4rem;
+  width: 25rem;
+  height: 25rem;
 }
+
+.subtitle {
+  font-family: 'Anonymous Pro', monospace;
+  letter-spacing: 0.1rem;
+  color: #666;
+  font-size: 1.15rem;
+}
+
+@media (min-width: 550px) {
+  .logo {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .subtitle {
+    font-family: 'Anonymous Pro', monospace;
+    letter-spacing: 0.5rem;
+    color: #666;
+    font-size: 1.15rem;
+  }
+}
+
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
