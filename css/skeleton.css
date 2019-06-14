@@ -25,9 +25,23 @@
 - Media Queries
 */
 
+.justified {
+  text-align: justify;
+}
+
 .title {
   padding-bottom: 0rem;
   margin-bottom: 0rem;
+}
+
+[data-aos="white2black"] {
+  background: #fdfdfd;
+  color: #202020;
+  transition-property: background;
+}
+[data-aos="white2black"].aos-animate {
+  background: #202020;
+  color: #fdfdfd;
 }
 
 /* Grid
@@ -36,7 +50,7 @@
   position: relative;
   width: 100%;
   max-width: 960px;
-  margin: 6% auto;
+  margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
 .column,
@@ -118,7 +132,11 @@
 
 .center {
   text-align: center;
-  padding: 2.5rem;
+}
+
+.spaced {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
 }
 
 .logo {
