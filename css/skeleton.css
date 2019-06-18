@@ -175,7 +175,7 @@ html {
   font-size: 62.5%; }
 body {
   font-size: 1.65em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   color: #202020;
