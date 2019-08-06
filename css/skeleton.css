@@ -7,24 +7,6 @@
 * 12/29/2014
 */
 
-
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid
-- Base Styles
-- Typography
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Spacing
-- Utilities
-- Clearing
-- Media Queries
-*/
-
 .justified {
   text-align: justify;
 }
@@ -39,10 +21,12 @@
 .container {
   position: relative;
   width: 95%;
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; }
+  max-width: 666px;
+  margin: 2rem auto 2rem auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fcfcfc;
+}
 .column,
 .columns {
   width: 100%;
@@ -125,13 +109,12 @@
 }
 
 .spaced {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding: 2rem;
 }
 
 .logo {
-  width: 30rem;
-  height: 30rem;
+  width: 26rem;
+  height: 26rem;
 }
 
 .subtitle {
@@ -154,7 +137,7 @@ body {
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   color: #303030;
-  background: #fdfdfd; }
+  background: #fefefe; }
 
 
 /* Typography
