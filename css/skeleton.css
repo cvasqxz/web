@@ -31,8 +31,15 @@
   height: 70%;
 }
 
+.spaced {
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 /* For devices larger than 400px */
-@media (min-width: 400px) {
+@media (min-width: 500px) {
   .container {
     position: relative;
     width: 95%;
@@ -43,6 +50,10 @@
   .logo {
     width: 28rem;
     height: 28rem;
+  }
+
+  .spaced {
+    padding: 10rem 3rem;
   }
 }
 
@@ -129,10 +140,6 @@
 
 .padding {
   padding-top: 2rem;
-}
-
-.spaced {
-  padding: 1.5rem 3rem;
 }
 
 .subtitle {
