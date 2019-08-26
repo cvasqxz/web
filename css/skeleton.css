@@ -148,6 +148,16 @@
   font-size: 1.15rem;
 }
 
+[data-aos="white2black"] {
+  background: #fdfdfd;
+  color: #202020;
+  transition-property: background;
+}
+[data-aos="white2black"].aos-animate {
+  background: #202020;
+  color: #fdfdfd;
+}
+
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
